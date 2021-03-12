@@ -1,8 +1,13 @@
 const Discord = require('discord.js');
-const config = require('./config.json');
+const dotenv = require('dotenv');
+
 const messageAction = require('./functions').messageCommands;
 
 const client = new Discord.Client();
 
-client.login(config.BOT_TOKEN);
+dotenv.config();
+
+console.log(process.env.BOT_TOKEN);
+
+client.login(`${process.env.BOT_TOKEN}`);
 client.on("message", messageAction);
