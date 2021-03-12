@@ -1,0 +1,13 @@
+{
+    "BOT_TOKEN":"ODE3NTY2NTgzMjc4NjY1NzQ3.YELYNw.9ttthcOkWHYMQcFedfsGAMRYojk",
+    "prefix":"!t",
+    "api":{
+        "link_summoner_name":"https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/",
+        "link_spectator_byId":"https://la2.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/",
+        "link_champion_rotation":"https://la2.api.riotgames.com/lol/platform/v3/champion-rotations",
+        "link_mastery_user":"https://la2.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/"
+    },
+    "headers":{
+        "X-Riot-Token": "RGAPI-8a1bc693-8d8c-4c84-abe5-1385313fa4be"
+    }
+}
